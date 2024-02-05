@@ -1,0 +1,324 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>WEB3_PATHROL</title>
+  <link rel="stylesheet" href="style.css" />
+  <script src="script.js"></script>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+    integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+  <!-- NAVBAR START-->
+  <nav class="navbar navbar-expand-lg bg-light">
+    <div class="container">
+      <a class="navbar-brand" href="#">
+        <img src="logo.png" alt="logo" height="29px" width="140px" />
+      </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-md-0">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#home">Home</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#ourservices" role="button" data-bs-toggle="dropdown"
+              aria-expanded="false">
+              Our sevices
+            </a>
+            <ul class="dropdown-menu">
+              <li>
+                <a class="dropdown-item" href="#">Pest Control Service in Delhi NCR</a>
+              </li>
+              <li>
+                <a class="dropdown-item" href="#">Termite control Service</a>
+              </li>
+              <li>
+                <a class="dropdown-item" href="#">Sanitization Service in Delhi NCR</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" aria-current="page" href="#Gallery">Gallery</a>
+          </li>
+
+          <li class="nav-item">
+            <a class="nav-link" aria-current="page" href="#contact us">contact us</a>
+          </li>
+        </ul>
+        <form class="d-flex" role="search" method="get">
+          <div class="input-group">
+            <input class="form-control form-control-sm" type="search" placeholder="Search" aria-label="Search" />
+            <button class="btn btn-success" type="submit">Search</button>
+          </div>
+        </form>
+      </div>
+    </div>
+  </nav>
+
+  <!-- slider -->
+  <div id="carouselExampleDark" class="carousel carousel-dark slide">
+    <div class="carousel-indicators">
+      <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active"
+        aria-current="true" aria-label="Slide 1"></button>
+      <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1" aria-label="Slide 2"></button>
+      <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="2" aria-label="Slide 3"></button>
+    </div>
+    <div class="carousel-inner">
+      <div class="carousel-item active" data-bs-interval="10000">
+        <img src="slider-1.jpg" class="d-block w-100" alt="..." />
+        <div class="carousel-caption">
+          <h5 class="text-light">Best Pest Control Service</h5>
+          <p class="text-light">ENJOY YOUR HOME TOTALLY PEST FREE</p>
+          <button type="button" class="btn btn-outline-light mx-3 my-2">
+            <i class="fa-solid fa-address-book" style="color: #000000; margin-right: 3px; font-size: 14px"></i>contact
+            now
+          </button>
+          <button type="button" class="btn btn-outline-light">
+            <i class="fa-solid fa-play" style="color: #000000; margin-right: 3px; font-size: 14px"></i>book services
+          </button>
+        </div>
+      </div>
+      <div class="carousel-item" data-bs-interval="2000">
+        <img src="slider-2.jpg" class="d-block w-100" alt="..." />
+        <div class="carousel-caption d-none d-md-block">
+          <h5 class="text-light">Best Pest Control Service</h5>
+          <p class="text-light">ENJOY YOUR HOME TOTALLY PEST FREE</p>
+          <button type="button" class="btn btn-outline-light mx-3 my-2">
+            <i class="fa-solid fa-address-book" style="color: #000000; margin-right: 3px; font-size: 14px"></i>contact
+            now
+          </button>
+          <button type="button" class="btn btn-outline-light">
+            <i class="fa-solid fa-play" style="color: #000000; margin-right: 3px; font-size: 14px"></i>book services
+          </button>
+        </div>
+      </div>
+
+      <div class="carousel-item">
+        <img src="slider-3.jpg" class="d-block w-100" alt="..." />
+        <div class="carousel-caption d-none d-md-block">
+          <h5 class="text-light">Best Pest Control Service</h5>
+          <p class="text-light">ENJOY YOUR HOME TOTALLY PEST FREE</p>
+          <button type="button" class="btn btn-outline-light mx-3 my-2">
+            <i class="fa-solid fa-address-book" style="color: #000000; margin-right: 3px; font-size: 14px"></i>contact
+            now
+          </button>
+          <button type="button" class="btn btn-outline-light">
+            <i class="fa-solid fa-play" style="color: #000000; margin-right: 3px; font-size: 14px"></i>book services
+          </button>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- services-->
+  <div class="insect">
+    <div class="container">
+      <div class="row">
+        <div class="col-3 col-md">
+          <div class="insect-images">
+            <img src="insect1.jpg" alt="" class="sizeimg" />
+            <p class="text-center">Cockroach Control</p>
+          </div>
+        </div>
+
+        <div class="col-3 col-md">
+          <div class="insect-images">
+            <img src="control-img-2.jpg" alt="" class="sizeimg" />
+            <p class="text-center">Fly Control            </p>
+          </div>
+        </div>
+        <div class="col-3 col-md">
+          <div class="insect-images">
+            <img src="control-img-3.jpg" alt="" class="sizeimg" />
+            <p class="text-center">Yellow Jacket Control    </p>
+          </div>
+        </div>
+        <div class="col-3 col-md">
+          <div class="insect-images">
+            <img src="control-img-4.jpg" alt="" class="sizeimg" />
+            <p class="text-center">Carpenter Bees Control            </p>
+          </div>
+        </div>
+        <div class="col-3 col-md">
+          <div class="insect-images">
+            <img src="control-img-8.jpg" alt="" class="sizeimg" />
+            <p class="text-center">Rodent Control            </p>
+          </div>
+        </div>
+        <div class="col-3 col-md">
+          <div class="insect-images">
+            <img src="control-img-7.jpg" alt="" class="sizeimg" />
+            <p class="text-center">Cockroach Control</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- first row-->
+  <section>
+    <div class="container">
+      <div class="row align-item-center">
+        <div class="col-md-5 ">
+          <div class="img">
+            <img src="hero-05.jpg" class="img-fluid" />
+          </div>
+        </div>
+        <div class="col-md-6 py-2 px-5 ">
+          <h1>PEST CONTROL SERVICES IN DELHI NCR</h1>
+          <p>
+            We, Pathrol Pest Control Services, situated at Sarita Vihar,
+            Delhi, DELHI are the leading providers of the pest and termite
+            control services all around. We work on the principle of providing
+            quality pest control services clubbed with superior customer
+            satisfaction. All our services are performed by highly trained and
+            services, It can help resolve any kind of pest infestation, wood
+            borers, bed bugs, be it cockroaches, ants, house flies, lizards,
+            mosquitoes, termites, rodents, spiders, rats, etc.
+          </p>
+          <button type="button" class="btn btn-outline-success">Explore more </button>
+
+        </div>
+      </div>
+  </section>
+  <!-- second row-->
+  <section class="second">
+    <div class="container">
+      <div class="row d-flex justify-content-between">
+        <div class="col-md-5 ">
+          <h1>COMPREHENSIVE PEST REMOVAL
+          </h1>
+
+        </div>
+        <div class="col-md-7 py-md-2 px-5 ">
+          <p>
+            We get results – guaranteed – and one of the many reasons behind our high level of efficiency is our Quality
+            Assurance Department, which performs random audits to make sure Pathrol Pest Control is living up to our own
+            high standards by monitoring key quality control factors.
+
+          </p>
+        </div>
+        <div class="my-2  d-flex justify-content-center">
+          <img src="relex-pest-free.webp" class="img-fluid" />
+        </div>
+      </div>
+    </div>
+  </section>
+  <section>
+    <div class="container">
+      <div class="row align-item-center">
+        <div class="col-md-5 ">
+          <div class="img">
+            <img src="pest-boy.png" class="img-fluid" />
+          </div>
+        </div>
+        <div class="col-md-2 ">
+        </div>
+
+        <div class="col-md-5 py-2  ">
+          <h1> WILL BRING COMFORT TO YOUR BUSINESS </h1>
+
+          <div class="d-flex "> <img src="managment.webp" class="icon">
+            <div>
+              <h3>Integrated Pest Management
+              </h3>
+              <p>
+                Our management staff expertly coordinates pest control orders to avoid any delays
+              </p>
+            </div>
+          </div>
+
+          <div class="d-flex "> <img src="control.webp" class="icon">
+            <div>
+              <h3>Restaurant Pest Control
+              </h3>
+              <p>
+                Our management staff expertly coordinates pest control orders to avoid any delays
+              </p>
+            </div>
+          </div>
+
+          <div class="d-flex "> <img src="doc.webp" class="icon">
+            <div>
+              <h3>Service Documentation
+
+              </h3>
+              <p>
+                Our management staff expertly coordinates pest control orders to avoid any delays
+              </p>
+            </div>
+          </div>
+
+        </div>
+      </div>
+  </section>
+
+  <!-- footer-->
+  <section class="footer">
+    <div class="container">
+      <div class="row">
+        <div class="col-4">
+          <h5>About Pathrol Pest Control</h5>
+          <p>We, Pathrol Pest Control Services, situated at Sarita Vihar, Delhi, DELHI are the leading providers of the
+            pest and termite control services all around. We work on the principle of providing quality pest control
+            services clubbed with superior customer satisfaction. All our services are performed by highly trained and
+            certified technicians.
+          </p>
+        </div>
+        <div class="col-2">
+          <h5 class="text-left">Our Services </h5>
+          <ul style="list-style: none; list-style-type: none;">
+            <li>Pest Control Service </li>
+            <li>Rats Control Service</li>
+            <li>Bed Bug Control Service</li>
+            <li> Termite Control Service</li>
+            <li> Sanitization Service</li>
+          </ul>
+
+        </div>
+        <div class="col-3 ">
+          <h5 class="text-left">Quick Links
+          </h5>
+          <ul  style="list-style: none;">
+            <li>Home Page </li>
+            <li> Abour Us</li>
+            <li>Our Services </li>
+            <li> Our Gallery3 </li>
+            <li> Contact Us </li>
+          </ul>
+
+        </div>
+        <div class="col-3">
+          <h5 class="text-left">Contact Us</h5>
+          <ul style="list-style: none;">
+            <li> <i class="fa-solid fa-square-phone" style="color: #000000; margin-right: 5px;"></i>+91 8178004979 </li>
+            <li> <i class="fa-brands fa-whatsapp" style="color: #000000; margin-right: 5px;"></i>Whatsapp Chat </li>
+            <li> <i class="fa-brands fa-square-facebook" style="color: #000000;margin-right: 5px;"></i>Facebook Page
+            </li>
+            <li><i class="fa-brands fa-square-twitter" style="color: #000000;margin-right: 5px;"></i> twitter </li>
+            <li><i class="fa-brands fa-instagram" style="color: #000000;margin-right: 5px;"></i>instragram</li>
+          </ul>
+
+        </div>
+
+
+      </div>
+    </div>
+  </section>
+
+
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+    crossorigin="anonymous"></script>
+</body>
+
+</html>
